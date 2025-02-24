@@ -1,0 +1,102 @@
+.election-manager {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.current-votes {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.vote-count-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.vote-count-item:last-child {
+    border-bottom: none;
+}
+
+.end-election-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.end-election-btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.results-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.result-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.candidate-name {
+    font-weight: bold;
+}
+
+.vote-count {
+    color: #28a745;
+}
+
+.ipfs-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.ipfs-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ipfs-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.ipfs-links a:hover {
+    text-decoration: underline;
+}
+
+.success-message {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
