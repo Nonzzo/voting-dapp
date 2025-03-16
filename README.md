@@ -46,9 +46,9 @@ cd voting-dapp
 
 2. Install Foundry dependencies and compile contracts:
 ```bash
-curl -L https://foundry.paradigm.xyz | bash
-foundryup
-forge init .
+
+forge install
+forge build
 ```
 
 3. Install frontend dependencies:
